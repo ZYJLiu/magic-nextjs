@@ -45,7 +45,7 @@ const TransferToken = () => {
         setDisabled(false)
         console.error(error)
       })
-  }, [web3])
+  }, [web3, amount])
 
   return (
     <div>
